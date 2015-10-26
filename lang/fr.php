@@ -5,9 +5,8 @@ $lang = array (
 	'Site name'							=>	'VikiLogs',
 	'Home'                            	=>	'Accueil',
 	'Lang'								=>	'Langues',
-	'Lang_fr'							=>	'Français',
-	'Lang_en'							=>	'English (soon)',
 	'Log'								=>	'Historiques des conversations',
+	'Github'							=>	'Fork moi sur Github !',
 
 	// Home page
  );

@@ -76,6 +76,9 @@ require_once('lang/selector.php');
               </ul>
             </li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand" href="https://github.com/A-xis/VikiLogs"><?php echo $lang['Github'] ?></a></li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav><!--/.navbar -->

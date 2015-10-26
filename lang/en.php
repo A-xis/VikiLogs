@@ -6,6 +6,7 @@ $lang = array (
 	'Home'                            	=>	'Home',
 	'Lang'								=>	'Langage',
 	'Log'								=>	'Conversation log',
+	'Github'							=>	'Fork me on Github!',
 
 	// Home page
  );
