@@ -1,5 +1,6 @@
 <?php
     header('Content-type: text/html; charset=utf-8');
+    include('./include/function.php');
     // let's check the lang (by default it's en)
     // TODO: get the lang using navigator
     if(isset($_GET['lang'])) {
@@ -73,7 +74,9 @@
 
       <div class="starter-template">
         <h1><?php echo $lang['Site name'] . $lang['Title separator'] . $lang['Home'] ?></h1>
-        <p class="lead"><a href="//freenode.net/channel_guidelines.shtml">Channel Guidelines</a></p>
+        <?php
+            ShowDir();
+        ?>
       </div>
 
     </div><!-- /.container -->
