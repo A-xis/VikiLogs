@@ -1,5 +1,5 @@
 <?php
-  defined('_VKL_INIT')||(header("HTTP/1.1 403 Forbidden")&die('403.14 - Directory listing denied.'));
+  defined('_VKL_INIT')||(header("HTTP/1.1 403 Forbidden")&die('403.2 - Read access is denied.'));
     header('Content-type: text/html; charset=utf-8');
     // let's check the lang (by default it's en)
     // TODO: get the lang using navigator
@@ -60,8 +60,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $lang['Lang'] ?><span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li <?php if($curr_lang == 'fr') { ?> class="active" <?php } ?>><a href="./index.php?lang=fr"><?php echo $lang_selector['Lang_fr'] ?></a></li>
-                <li <?php if($curr_lang == 'en') { ?> class="active" <?php } ?>><a href="./index.php?lang=en"><?php echo $lang_selector['Lang_en'] ?></a></li>
+                <li <?php if($curr_lang == 'fr') { ?> class="active" <?php } ?>><a href="?lang=fr"><?php echo $lang_selector['Lang_fr'] ?></a></li>
+                <li <?php if($curr_lang == 'en') { ?> class="active" <?php } ?>><a href="?lang=en"><?php echo $lang_selector['Lang_en'] ?></a></li>
               </ul>
             </li>
           </ul>
