@@ -15,8 +15,9 @@
     }
     // don't forget this one
     require_once('./lang/selector.php');
-    // TODO: add a working DEBUG constant
-    //defined('_VKL_DEBUG')&&(echo('<pre>')&print_r($GLOBALS)&echo('</pre>'));
+
+    if(defined('_VKL_DEBUG'))
+      echo "<pre>" . print_r($GLOBALS, true) . "</pre>";
 
 ?>
 <!DOCTYPE html>
