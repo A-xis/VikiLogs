@@ -1,1 +1,3 @@
 *.ini
+# Ignoring file project from Sublime Text
+c2g.sublime-*
